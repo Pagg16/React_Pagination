@@ -1,0 +1,30 @@
+.visiblePanel {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.num {
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 3px 15px;
+  cursor: pointer;
+  text-align: center;
+  margin: 2px;
+  border-radius: 5px;
+  background-color: rgb(250, 250, 250);
+  color: black;
+  font-size: 20px;
+}
+
+.numActive {
+  transform: scale(0.8);
+}
+
+.numNone {
+  display: none;
+}

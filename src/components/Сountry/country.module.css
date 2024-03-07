@@ -1,0 +1,24 @@
+.country {
+  width: 100%;
+  border: 2px solid rgb(185, 185, 185);
+  border-radius: 10px;
+  font-weight: lighter;
+  font-size: 20px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  height: 100px;
+  color: black;
+}
+
+.name {
+  margin: 0 15px 0 30px;
+}
+
+.img {
+  height: 90%;
+  border: 1px solid black;
+  padding: 1px;
+  border-radius: 2px;
+}
